@@ -1,0 +1,29 @@
+::selection {
+  background: hotpink;
+  color: black;
+}
+
+:root {
+  background: #111;
+  color: #ddd;
+}
+
+:link {
+  color: plum;
+  background: #100;
+}
+
+:visited {
+  color: orchid;
+  background: #100;
+}
+
+:any-link:hover {
+  color: hotpink;
+  text-decoration-color: #e0e;
+}
+
+mark {
+  background: #e99;
+  color: #100;
+}
